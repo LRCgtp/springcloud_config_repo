@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: order
+
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/001?characterEncoding=utf-8&useSSL=true
+    username: root
+    password: root
+mybatis:
+  mapper-locations: classpath:com/cn/demo/mapper/*.xml
+  type-aliases-package: com.cn.demo.entity
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8081:8081/eureka/,http://eureka8080:8080/eureka/
