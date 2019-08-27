@@ -14,9 +14,4 @@ mybatis:
   type-aliases-package: com.cn.demo.entity
 
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka8081:8081/eureka/,http://eureka8080:8080/eureka/
-enviroment: dev
  
