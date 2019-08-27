@@ -12,6 +12,13 @@ spring:
 mybatis:
   mapper-locations: classpath:com/cn/demo/mapper/*.xml
   type-aliases-package: com.cn.demo.entity
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8080:8080/eureka/  
+  
+  
+  
 
 
  
