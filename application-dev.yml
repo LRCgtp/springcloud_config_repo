@@ -1,6 +1,6 @@
 spring:
   application:
-    name: config-client2
+    name: config-client
 
   thymeleaf:
     cache: false
